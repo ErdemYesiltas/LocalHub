@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+.swiftpm/
+node_modules/
+dist/
+*.tsbuildinfo
+/state/
+/build/
+.dart_tool/
+
+/docs/

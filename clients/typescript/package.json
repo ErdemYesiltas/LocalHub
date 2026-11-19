@@ -1,0 +1,34 @@
+{
+  "name": "@localhub/client",
+  "version": "0.1.0",
+  "description": "LocalHub client for Node and the Electron main process: QR pairing, certificate pinning, OpenAI-compatible chat",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json",
+    "test": "node --test --test-reporter=spec 'test/*.test.ts'",
+    "example:models": "node examples/list-models.ts"
+  },
+  "devDependencies": {
+    "@types/multicast-dns": "^7.2.4",
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "multicast-dns": "^7.2.5"
+  }
+}
