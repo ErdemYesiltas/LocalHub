@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "LocalHub client for Node and the Electron main process: QR pairing, certificate pinning, OpenAI-compatible chat",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": ">=22.18"

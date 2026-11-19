@@ -78,6 +78,10 @@ The [OpenAPI specification](api/openapi.yaml) is also served by a running hub at
 - Node-based media generation and reusable workflow graphs informed the workflow importer. [ComfyUI](https://docs.comfy.org/)
 - The standard for exposing tools and their argument schemas guides the MCP integration. [Model Context Protocol](https://modelcontextprotocol.io/)
 
+### License
+
+LocalHub and its SDKs are available under the [MIT License](LICENSE).
+
 ## Türkçe
 
 LocalHub, eşleştirilmiş telefonların, tabletlerin ve bilgisayarların bir Mac’te çalışan yapay zekâ servislerine tek noktadan bağlanmasını sağlayan bir macOS uygulamasıdır. Yerel sohbet modellerini, ComfyUI iş akışlarını ve Model Context Protocol (MCP) araçlarını tek API üzerinden sunar. Entegrasyonlar, cihaz erişimi ve işler Mac uygulamasının penceresinden yönetilir. Pencere kapandığında uygulama menü çubuğundan erişilebilir.
@@ -149,3 +153,7 @@ Grafik arayüz yerine komut satırı sürümü de kullanılabilir. Aynı veri di
 - Yerelde model sunma ve keşfetme özellikleri entegrasyonların tasarımına yön verdi. [LM Studio](https://lmstudio.ai/docs/developer) · [Ollama](https://docs.ollama.com/)
 - Düğüm tabanlı medya üretimi ve yeniden kullanılabilen iş akışları, içe aktarma tasarımına örnek oldu. [ComfyUI](https://docs.comfy.org/)
 - Araçları ve argüman şemalarını sunma standardı MCP entegrasyonuna yön verdi. [Model Context Protocol](https://modelcontextprotocol.io/)
+
+### Lisans
+
+LocalHub ve istemci SDK'ları [MIT Lisansı](LICENSE) ile yayımlanır.
